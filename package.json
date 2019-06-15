@@ -1,6 +1,7 @@
 {
   "name": "share-on-twitter",
   "description": "Share currrent page on Twitter",
+  "main": "./src/background.js",
   "scripts": {
     "lint": "eslint src tools --fix",
     "prebuild": "npm run lint && rm -fr dist && mkdir dist && cp -R src/{icons,manifest.json} dist",
@@ -29,7 +30,6 @@
   "browserslist": [
     "last 1 Chrome version"
   ],
-  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robertoentringer/chrome-share-on-twitter.git"
