@@ -10,6 +10,6 @@ https://www.youtube.com/watch?v=WRYhQH_IpbE
 
 Screenshots : 
 
-[![screenshot.jpg](screenshot.jpg?raw=true)](https://chrome.google.com/webstore/detail/share-on-twitter/ndhigigiemdlgngacocmigbjenblipdo)
+[![screenshot.jpg](screenshot.jpg)](https://chrome.google.com/webstore/detail/share-on-twitter/ndhigigiemdlgngacocmigbjenblipdo)
 
-[![screenshot2.jpg](screenshot2.jpg?raw=true)](https://chrome.google.com/webstore/detail/share-on-twitter/ndhigigiemdlgngacocmigbjenblipdo)
+[![screenshot2.jpg](screenshot2.jpg)](https://chrome.google.com/webstore/detail/share-on-twitter/ndhigigiemdlgngacocmigbjenblipdo)
