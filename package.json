@@ -3,11 +3,11 @@
   "description": "Share currrent page on Twitter",
   "main": "./src/background.js",
   "scripts": {
-    "lint": "eslint src tools --fix",
+    "lint": "eslint ./src/**/*.js  --fix",
     "prebuild": "npm run lint && rm -fr dist && mkdir dist && cp -R src/{icons,manifest.json} dist",
     "build": "parcel build src/background.js --no-cache --no-source-maps --out-dir dist/",
     "dev": "npm run prebuild && parcel watch src/background.js --hmr-hostname localhost --hmr-port 8081 --no-cache --no-source-maps --out-dir dist/",
-    "pack": "npm run build && node tools/pack.js"
+    "pack": "npm run build && zipack ./src/manifest.json"
   },
   "keywords": [
     "chrome",
@@ -19,13 +19,14 @@
   "author": "Roberto Entringer",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "archiver": "^3.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "parcel-bundler": "^1.12.3",
-    "prettier": "^1.17.1"
+    "@babel/core": "^7.10.4",
+    "archiver": "^4.0.2",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "zipack": "0.0.7"
   },
   "browserslist": [
     "last 1 Chrome version"

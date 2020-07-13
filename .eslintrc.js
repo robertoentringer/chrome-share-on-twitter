@@ -4,17 +4,16 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   globals: {
-    chrome: "readonly"
+    chrome: 'readonly'
   },
-  plugins: ["prettier"],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: 'module'
   },
   rules: {
-    "prettier/prettier": ["error", { semi: false, printWidth: 100 }],
-    "comma-dangle": ["error", "never"]
+    'comma-dangle': ['error', 'never']
   }
 }
