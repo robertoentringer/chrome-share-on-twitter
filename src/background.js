@@ -16,10 +16,7 @@ const tweet = async (url, title = '') => {
 
   await fetch(compose).then((resp) => {
     if (resp.ok) endpoint = compose.href
-    else if (resp.status == 404) {
-      chrome.cookies.set({ name: 'rweb_optin', url: 'https://twitter.com', value: 'on' })
-      endpoint = login.href
-    }
+    else if (resp.status == 404) endpoint = login.href
   })
 
   chrome.tabs.create({ url: endpoint })

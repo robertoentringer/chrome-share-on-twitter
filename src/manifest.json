@@ -16,7 +16,7 @@
   },
   "manifest_version": 2,
   "name": "Share on Twitter",
-  "permissions": ["contextMenus", "activeTab", "cookies", "*://twitter.com/*"],
+  "permissions": ["contextMenus", "activeTab", "*://twitter.com/*"],
   "short_name": "Share on Twitter",
-  "version": "0.4"
+  "version": "0.5"
 }
