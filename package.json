@@ -1,6 +1,7 @@
 {
   "name": "share-on-twitter",
-  "description": "Share currrent page on Twitter",
+  "version": "0.0.5",
+  "description": "Share current page on Twitter",
   "main": "./src/background.js",
   "scripts": {
     "lint": "eslint ./src/**/*.js  --fix",
@@ -39,6 +40,5 @@
     "url": "https://github.com/robertoentringer/chrome-share-on-twitter/issues"
   },
   "homepage": "https://github.com/robertoentringer/chrome-share-on-twitter#readme",
-  "version": "1.0.0",
   "dependencies": {}
 }
