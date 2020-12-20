@@ -18,5 +18,5 @@
   "name": "Share on Twitter",
   "permissions": ["contextMenus", "activeTab", "*://twitter.com/*"],
   "short_name": "Share on Twitter",
-  "version": "0.5"
+  "version": "0.6"
 }
