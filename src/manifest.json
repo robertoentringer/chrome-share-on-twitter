@@ -5,15 +5,15 @@
     "scripts": ["background.js"]
   },
   "browser_action": {
-    "default_icon": "icons/icon32.png",
+    "default_icon": "icons/128.png",
     "default_title": "Share on Twitter"
   },
   "description": "Share currrent page on Twitter",
   "icons": {
-    "128": "icons/icon128.png",
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png"
+    "512": "icons/512.png",
+    "256": "icons/256.png",
+    "128": "icons/128.png",
+    "64": "icons/64.png"
   },
   "manifest_version": 2,
   "name": "Share on Twitter",
